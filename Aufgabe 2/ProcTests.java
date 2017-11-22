@@ -1,10 +1,5 @@
-import static org.junit . Assert .*;
-import org. junit . Test ; 
-
-public class ProcTests {
-    public static void main(String[] args) {
-        
-    }
+import static org.junit.Assert.*;
+import org.junit.Test; 
 	
   @Test
     public void testZuTake1 () {
