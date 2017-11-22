@@ -2,6 +2,7 @@ public class Procs {
 
 /*
     requires    ar != null && 0 <= n <= ar.length
+    modifies    \nothing
     ensures     \result ist ein neues Array mit den n ersten Einträgen aus ar
 */
 
@@ -31,6 +32,7 @@ public class Procs {
 
 /*
     requires    snippet != null && 1 <= len
+    modifies    /nothing
     ensures     für len < snippet.length ist das Ergebnis ein Array mit den len ersten Einträgen aus snippet und Länge len
                 für len = snippet.length ist das Ergebnis eine Kopie des Arrays snippet
                 für len > snippet.length ist das Ergebnis ein Array, in dem sich die Einträge von snippet len/snippet.length-mal wiederholen
