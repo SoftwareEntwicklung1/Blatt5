@@ -5,7 +5,7 @@ public class ProcTests {
     public static void main(String[] args) {
         
     }
-
+// Kommentar Beispiel
   @Test
     public void testZuTake1 () {
         int [] eingabe = {1 , 2 , 3 , 4 }; 
