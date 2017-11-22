@@ -25,7 +25,7 @@ public class ProcTests {
         int [] eingabe = {1 , 2 , 3 , 4};
         int x = 2;
         int [] erwartet = {1 , 2};
-        assertArrayEquals ("leeres Array", Procs.take(eingabe,x) , erwartet);
+        assertArrayEquals ("n < ar.length", Procs.take(eingabe,x) , erwartet);
     }
 
     @Test
