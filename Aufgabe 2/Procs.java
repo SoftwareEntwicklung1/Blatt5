@@ -1,7 +1,7 @@
 public class Procs {
 
 /*
-    requires    ar != null && 0 <= n <= ar.length
+    requires    ar != null && 0 <= n < ar.length
     modifies    \nothing
     ensures     \result ist ein neues Array mit den n ersten Einträgen aus ar
 */
