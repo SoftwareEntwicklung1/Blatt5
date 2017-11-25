@@ -4,6 +4,7 @@ public class Recursion {
         und alle Elemente kleiner als pivot links in einem Array
      
         requires a != null && 0<=left<right && right < a. length
+                 pivot is in dem array enthalten.
         modifies a
         ensures 
                  fuer left>right verlasst dass Prozedur partition.
@@ -53,7 +54,7 @@ public class Recursion {
 
 	public static void main(String...args) {
 		int[] a = {7,23,3,10,11,5,3,2,23};
-		partition(a, 10, 0, 8);
+		partition(a, 500, 0, 8);
 		System.out.println(Arrays.toString(a));
 	}
 }
